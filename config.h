@@ -18,7 +18,7 @@
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
-    X("", "battery.sh", 5, 1)  \
+    X("", "$HOME/.local/bin/battery.sh", 5, 1)  \
     X("", "echo '^c#8ec07c^'$(date '+%H:%M:%S')", 1, 10)
 
 #endif  // CONFIG_H
